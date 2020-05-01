@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>software architecture</title>
+</heqd>
+<body
+style="color:black;
+background-color:grey;
+font-family:serif;">
+
+<h1>what is a software architecture?</h1>
+
+<p>Software architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems. 
+Each structure comprises software elements, relations among them, and properties of both elements and relations.
+The architecture of a software system is a metaphor, analogous to the architecture of a building. 
+It functions as a blueprint for the system and the developing project, laying out the tasks necessary to be executed by the design teams.
+Software architecture is about making fundamental structural choices that are costly to change once implemented. Software architecture choices include specific structural options from possibilities in the design of the software. For example, the systems that controlled the Space Shuttle launch vehicle had the requirement of being very fast and very reliable. Therefore, an appropriate real-time computing language would need to be chosen. Additionally, to satisfy the need for reliability the choice could be made to have multiple redundant and independently produced copies of the program, and to run these copies on independent hardware while cross-checking results.
+Documenting software architecture facilitates communication between stakeholders, captures early decisions about the high-level design, and allows reuse of design components between projects.
+</p>
+<br />
+
+
+<h2>Scopes of software architectures</h2>
+<b>Opinions vary as to the scope of software architectures:</b>
+<ul>
+<li><b>Macroscopic system structure:</b> this refers to architecture as a higher-level abstraction of a software system that consists of a collection of computational components together with connectors that describe the interaction between these components.</li>
+<br/>
+
+<li><b>The important stuff—whatever that is:</b> this refers to the fact that software architects should concern themselves with those decisions that have high impact on the system and its stakeholders.
+That which is fundamental to understanding a system in its environment.</li>
+<br/>
+
+<li><b>Things that people perceive as hard to change:</b> since designing the architecture takes place at the beginning of a software system's lifecycle, the architect should focus on decisions that "have to" be right the first time. Following this line of thought, architectural design issues may become non-architectural once their irreversibility can be overcome.</li>
+<br/>
+
+<li><b>A set of architectural design decisions:</b> software architecture should not be considered merely a set of models or structures, but should include the decisions that lead to these particular structures, and the rationale behind them. This insight has led to substantial research into software architecture knowledge management .
+There is no sharp distinction between software architecture versus design and requirements engineering (see Related fields below). They are all part of a "chain of intentionality" from high-level intentions to low-level details.</li>
+<br/>
+</ul>
+
+<h2>Characteristics of Software architecture</h2>
+
+<b>Software architecture exhibits the following:</b>
+
+<ul>
+<li><b>Multitude of stakeholders:</b> software systems have to cater to a variety of stakeholders such as business managers, owners, users, and operators. These stakeholders all have their own concerns with respect to the system. Balancing these concerns and demonstrating that they are addressed is part of designing the system.This implies that architecture involves dealing with a broad variety of concerns and stakeholders, and has a multidisciplinary nature.</li>
+<br/>
+
+<li><b>Separation of concerns:</b> the established way for architects to reduce complexity is to separate the concerns that drive the design. Architecture documentation shows that all stakeholder concerns are addressed by modeling and describing the architecture from separate points of view associated with the various stakeholder concerns. These separate descriptions are called architectural views (see for example the 4+1 architectural view model).</li>
+<br/>
+
+<li><b>Quality-driven:</b> classic software design approaches (e.g. Jackson Structured Programming ) were driven by required functionality and the flow of data through the system, but the current insight is that the architecture of a software system is more closely related to its quality attributes such as <b>fault-tolerance, backward compatibility, extensibility,
+reliability, maintainability , availability, security, usability, and other such – ilities.</b> Stakeholder concerns often translate into requirements on these quality attributes, which are variously called non-functional requirements, extra-functional requirements, behavioral requirements, or quality attribute requirements.</li>
+<br/>
+
+<li><b>Recurring styles:</b> like building architecture, the software architecture discipline has developed standard ways to address recurring concerns. These "standard ways" are called by various names at various levels of abstraction. Common terms for recurring solutions are <b>architectural style,tactic, reference architecture and architectural pattern.</b></li>
+<br/>
+
+<li><b>Conceptual integrity:</b> a term introduced by Fred Brooks in The Mythical Man-Month to denote the idea that the architecture of a software system represents an overall vision of what it should do and how it should do it. This vision should be separated from its implementation. The architect assumes the role of "keeper of the vision", making sure that additions to the system are in line with the architecture, hence preserving conceptual integrity.</li>
+<br/>
+
+<li><b>Cognitive constraints:</b> an observation first made in a 1967 paper by computer programmer Melvin Conway that organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations. As with conceptual integrity, it was Fred Brooks who introduced it to a wider audience when he cited the paper and the idea in his elegant classic The Mythical Man-Month , calling it "Conway's Law."</li>
+</ul>
+</body>
+</html>
